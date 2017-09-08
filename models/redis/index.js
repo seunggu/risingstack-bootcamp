@@ -24,7 +24,7 @@ function publishObject(channel, message) {
   return publisher.publish(channel, JSON.stringify(message));
 }
 
-async function destroy() {
+function destroy() {
   subscriber.disconnect();
   publisher.disconnect();
 }
