@@ -37,4 +37,4 @@ describe('Github API', () => {
     expect(githubAPI.isDone()).to.eql(true);
     expect(result).to.eql([{ author: {}, weeks: [] }]);
   });
-})
+});
